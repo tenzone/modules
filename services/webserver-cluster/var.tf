@@ -19,3 +19,7 @@ variable "db_remote_state_key" {}
 variable "instance_type" {}
 variable "min_size" {}
 variable "max_size" {}
+
+variable "enable_autoscaling" {
+  description = "If set to true, enable auto scaling"
+}
